@@ -14,6 +14,7 @@ class UkkController extends Controller
     public function index()
     {
         //
+        return view('ukk.index');
     
     }
 

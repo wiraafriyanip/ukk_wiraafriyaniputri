@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('ukk.index');
+    return view('kalkulator.kalkulator');
 });
 Route::resource('ukk', UkkController::class);
